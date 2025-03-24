@@ -2,14 +2,31 @@
 # -*- coding: utf-8 -*-
 # 如果是解释器是python而不是python3 那么需要额外声明上述两者coding之一
 """
-数据类型：
-int
-float
-str
-bool
-list
-tuple
-dict
+基本数据类型：
+int 整数
+float 浮点数
+str 字符串
+bool 布尔值
+
+容器类型：
+list 列表
+tuple 元组
+set 序列
+dict 字典
+
+特殊类型：
+NoneType (None 类似于js中的null)
+bytes
+bytearray
+range
+
+其他内置类型：
+complex
+frozenset
+enum.Enum
+
+自定义类型：
+class
 
 命名规则：
 1.只能使用英文字母、数字、下划线
