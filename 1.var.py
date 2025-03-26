@@ -54,3 +54,5 @@ print(bool(f))          # str类型的'hello, world'转成bool，输出True
 print(int(g))           # bool类型的True转成int，输出1
 print(chr(a))           # int类型的100转成str，输出'd' 用于unicode码点值转换成具体文本 character的缩写
 print(ord('d'))         # str类型的'd'转成int，输出100 用于具体文本获取对应的unicode码点值 ordinal的缩写
+
+print(type(range(1, 6)))
